@@ -4,7 +4,19 @@ body {
 .header {
   margin: auto;
   width: 100%;
+  text-shadow: rgb(213, 235, 162) 2px 0 10px;
 }
 .content {
-  margin:
+  margin: auto;
+  width: 80%;
+  border: solid 2px rgb(148, 148, 224);
+}
+.column {
+  border: solid 2px blue;
+  width: 50%;
+  float: left;
+  box-sizing: border-box;
+}
+img {
+  width: 40%;
 }
